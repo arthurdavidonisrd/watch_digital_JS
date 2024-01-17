@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital clock</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body{
+            background-image: url(//images.pexels.com/photos/1519088/pexels-photo-1519088.jpeg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            background-attachment: fixed;
+            margin: 0;
+        }
+        .container_clock{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .clock{
+            font-family: monospace;
+            font-size: 5em;
+            backdrop-filter: blur(3px);
+            background-color: hsla(0, 0%, 100%, 0.1);
+            color: white;
+            font-weight: bold;
+            width: 20%;
+            text-align:center;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container_clock">
+        <div id="clock" class="clock">
+            00:00:00
+
+        </div>
+
+    </div>
+
+
+
+    <script src="script.js" defer></script>
+    
+</body>
+</html>
